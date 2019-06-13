@@ -287,7 +287,7 @@ bot.on('message', msg => {
             break;
         case 'heroes':
             msg.delete(1000)
-            const attachment54 = new Attachment('https://giphy.com/gifs/ii2tzta1FtNH9ISJ7Z/html5')
+            const attachment54 = new Attachment('https://media.giphy.com/media/ii2tzta1FtNH9ISJ7Z/giphy.gif')
             msg.channel.send(attachment54);
             break;
     }
