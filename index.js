@@ -22,7 +22,7 @@ bot.on('message', msg => {
             break;
         case 'aisha':
             msg.delete(1000)
-            const attachment = new Attachment('./KR emoji/aisha.png')
+            const attachment = new Attachment('https://imgur.com/m98FmhX')
             msg.channel.send(attachment);
             break;
         case 'annette':
