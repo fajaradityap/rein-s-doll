@@ -262,7 +262,7 @@ bot.on('message', msg => {
             break;
         case 'viska':
             msg.delete(1000)
-            const attachment49 = new Attachment('./KR emoji/viska.png')
+            const attachment49 = new Attachment('https://photos.google.com/photo/AF1QipNFk2SZ8eXweqj9CC0qdI6tQPvnx2lTw0afnlt_')
             msg.channel.send(attachment49);
             break;
         case 'yanne':
