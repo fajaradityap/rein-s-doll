@@ -22,67 +22,67 @@ bot.on('message', msg => {
             break;
         case 'aisha':
             msg.delete(1000)
-            const attachment = new Attachment('./KR emoji/aisha.png')
+            const attachment = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/aisha.png?token=AHNH3FI32Z7GNUZ76TM3UTK5AKJ4Y')
             msg.channel.send(attachment);
             break;
         case 'annette':
             msg.delete(1000)
-            const attachment2 = new Attachment('./KR emoji/annette.png')
+            const attachment2 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/annette.png?token=AHNH3FLIVD7VI5DPUIKFPQS5AKJ')
             msg.channel.send(attachment2);
             break;
         case 'chrisha':
             msg.delete(1000)
-            const attachment3 = new Attachment('./KR emoji/chrisha.png')
+            const attachment3 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/chrisha.png?token=AHNH3FLBCUZGZVMHLAJLV4S5AKKB4')
             msg.channel.send(attachment3);
             break;
         case 'cleo':
             msg.delete(1000)
-            const attachment4 = new Attachment('./KR emoji/cleo.png')
+            const attachment4 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/cleo.png?token=AHNH3FKMC6AS3CZB4JKEXN25AKKDQ./KR emoji/cleo.png')
             msg.channel.send(attachment4);
             break;
         case 'crow':
             msg.delete(1000)
-            const attachment5 = new Attachment('./KR emoji/crow.png')
+            const attachment5 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/crow.png?token=AHNH3FLW2Y6RWRMWGUGGQ525AKKE6')
             msg.channel.send(attachment5);
             break;
         case 'crowmit':
             msg.delete(1000)
-            const attachment6 = new Attachment('./KR emoji/crowmit.png')
+            const attachment6 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/crowmit.png?token=AHNH3FKBQSCTTPBQAOZONQC5AK')
             msg.channel.send(attachment6);
             break;
         case 'dimael':
             msg.delete(1000)
-            const attachment7 = new Attachment('./KR emoji/dimael.png')
+            const attachment7 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/dimael.png?token=AHNH3FLLV3COPBQXY3ELVAK5AKK')
             msg.channel.send(attachment7);
             break;
         case 'erze':
             msg.delete(1000)
-            const attachment8 = new Attachment('./KR emoji/erze.png')
+            const attachment8 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/erze.png?token=AHNH3FOLAB2MUWJQD44JD4K5AKKKI')
             msg.channel.send(attachment8);
             break;
         case 'ezekiel':
             msg.delete(1000)
-            const attachment9 = new Attachment('./KR emoji/ezekiel.png')
+            const attachment9 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/ezekiel.png?token=AHNH3FIU7FDGXQZUAGLGR3S5AK')
             msg.channel.send(attachment9);
             break;
         case 'eztheo':
             msg.delete(1000)
-            const attachment10 = new Attachment('./KR emoji/eztheo.png')
+            const attachment10 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/eztheo.png?token=AHNH3FIODZELE54QMDEVBKC5AKK')
             msg.channel.send(attachment10);
             break;
         case 'frey':
             msg.delete(1000)
-            const attachment11 = new Attachment('./KR emoji/frey.png')
+            const attachment11 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/frey.png?token=AHNH3FOEVI5TWZRNQNUOCW25AKKOA')
             msg.channel.send(attachment11);
             break;
         case 'gladi':
             msg.delete(1000)
-            const attachment12 = new Attachment('./KR emoji/gladi.png')
+            const attachment12 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/gladi.png?token=AHNH3FPD6SK4VJHP37PTGXS5AKKP')
             msg.channel.send(attachment12);
             break;
         case 'jane':
             msg.delete(1000)
-            const attachment13 = new Attachment('./KR emoji/jane.png')
+            const attachment13 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/jane.png?token=AHNH3FKH32YYPUDOP4JKA4C5AKKPY')
             msg.channel.send(attachment13);
             break;
         case 'juno':
