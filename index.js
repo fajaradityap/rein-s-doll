@@ -285,6 +285,11 @@ bot.on('message', msg => {
             const attachment53 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/orty.png')
             msg.channel.send(attachment53);
             break;
+        case 'heroes':
+            msg.delete(1000)
+            const attachment54 = new Attachment('https://gph.is/g/4bvzWeR')
+            msg.channel.send(attachment54);
+            break;
     }
 })
 bot.login(token);
