@@ -262,7 +262,7 @@ bot.on('message', msg => {
             break;
         case 'viska':
             msg.delete(1000)
-            const attachment49 = new Attachment('https://photos.google.com/photo/AF1QipNFk2SZ8eXweqj9CC0qdI6tQPvnx2lTw0afnlt_')
+            const attachment49 = new Attachment('https://lh3.googleusercontent.com/KfwEWRPOH--QNQd4J0iYYsGvf1lsfjB0z6A68S5FJ015lodV-FP4tp5eiOT4sX2-if1UsZ5-H0BljMpT7_WpqjHqouyIveEv_8bIlDU6f4t-GQ2IzRTuMZiTK2d80PEB822OCakFBMsBQtP3sr9RIHtkbozRcMlygnCQVyrRpIxFIjIMt8Udi1XkVKUY1A1F-fnW3cOtRuhkZUc8h-AkbxVDAc6tJcAn-pVXTmfC8Ls0rNM0dN_k9JG-THEJZa3TrZEYpkAesL82Rxgui7esEMxUs9D1rXYV7UzM11fp9KxwUacS5_Q44fYoZ0TAu7EuZSMRbnBXEmGBxRu6V5TN20G-IMx2zfGWKtcBv-5vav8qQ0dcspY040H_JkIk9n1kowCven2S-4HQLsUHka2NHkrSijv4MFso42P8Y4faFVSu9Aznf957joZTMt5Eio2Ccf-S06DpigHbQR8WRPFpWIwn3zRjxFlR_tuBsHwMdFF9AyP-j6eLrfFMW5Dpckr-TTDLS0H2li7-nEYkyDNZVGIB1YSYYho9O88YaVi3CsmhincqpUSDtvVDXxO_Uu7O7vgRISsxJ1cipFQjaVNZXSsOOoZhqSmjSAoY8BPr0bhtJ9hNFdFK1wFNhvaLCFlS-nLdS0rt77q3xtcmzQu6J50uOul1xTM=w233-h220-no')
             msg.channel.send(attachment49);
             break;
         case 'yanne':
