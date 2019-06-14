@@ -747,15 +747,6 @@ bot.on('message', msg => {
 
         //heroes info
 
-        case 'hero':
-            if (args[1] === 'kasel') {
-                const embed = new Discord.RichEmbed()
-                    .setTitle('http://maskofgoblin.com/hero/1')
-                    .setThumbnail('http://maskofgoblin.com/img/hero.ee6ef94e.png')
-                    .setTimestamp()
-                message.channel.send(embed);
-                break;
-            }
     }
 })
 bot.login(token);
