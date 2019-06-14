@@ -1,7 +1,7 @@
 const { Client, Attachment } = require('discord.js');
 const bot = new Client();
 const token = 'NTg4NTgwOTU2Mzk5NDY4NTQ0.XQHhHw.QFRn4_uDD83rOmIHITQTYWOz71k';
-const PREFIX = ['!', '$'];
+const PREFIX = '!';
 const usedCommandRecently = new Set();
 
 bot.on('ready', () => {
@@ -30,6 +30,9 @@ bot.on('message', msg => {
                 }, 5000);
             }
             break;
+
+        //heroes emoji
+
         case 'aisha':
             msg.delete(3000)
             const attachment = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/aisha.png')
@@ -741,12 +744,18 @@ bot.on('message', msg => {
                 }, 5000);
             }
             break;
-    }
-    switch (args[1]) {
-        case 'kasel':
-            const embed = new Discord.RichEmbed('http://maskofgoblin.com/hero/1')
-                .setTitle('Kasel')
-            msg.channel.sendEmbed(embed);
+
+        //heroes info
+
+        case 'hero':
+            if (args[1] === 'kasel') {
+                const embed = new Discord.RichEmbed()
+                    .setTitle('http://maskofgoblin.com/hero/1')
+                    .setThumbnail('http://maskofgoblin.com/img/hero.ee6ef94e.png')
+                    .setTimestamp()
+                message.channel.send(embed);
+                break;
+            }
     }
 })
 bot.login(token);
