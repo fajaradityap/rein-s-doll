@@ -11,7 +11,7 @@ bot.on('ready', () => {
 bot.on('guildMemberAdd', member => {
     const channel = member.guild.channels.find(channel => channel.name === "general");
     if (!channel) return;
-    channel.send(`Welcome to Vagabond, ${member}, please read the rules in the rules channel`)
+    channel.send(`Welcome to Vagabond, ${member}, please read the rules in the #readme-rules channel`)
 })
 
 bot.on('message', msg => {
@@ -20,6 +20,8 @@ bot.on('message', msg => {
         case 'info':
             msg.delete(1000)
             msg.channel.send('created by Your Majesty 【﻿Ｒｅｉｎｆｌｙ】')
+            setTimeout(() => {
+            }, 3000);
             break;
         case 'aisha':
             msg.delete(1000)
@@ -291,6 +293,13 @@ bot.on('message', msg => {
             const attachment54 = new Attachment('https://media.giphy.com/media/ii2tzta1FtNH9ISJ7Z/giphy.gif')
             msg.channel.send(attachment54);
             break;
+    }
+    switch (args[1]) {
+        case 'embed':
+            const embed = new Discord.RichEmbed()
+                .setTitle('Hero Information')
+                .setAuthor()
+            msg.channel.sendEmbed(embed);
     }
 })
 bot.login(token);
