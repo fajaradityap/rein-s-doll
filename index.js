@@ -743,15 +743,13 @@ bot.on('message', msg => {
             }
             break;
     }
-    bot.on('message', msg => {
-        let args = msg.content.substring(PREFIX2.length).split(" ");
-        switch (args[1]) {
-            case 'kasel':
-                const embed = new Discord.RichEmbed()
-                    .setTitle('http://maskofgoblin.com/hero/1')
-                msg.channel.sendEmbed(embed);
-        }
-    })
-    bot.login(token);
-    bot.login(process.env.BOT_TOKEN);
+    let args = msg.content.substring(PREFIX2.length).split(" ");
+    switch (args[1]) {
+        case 'kasel':
+            const embed = new Discord.RichEmbed()
+                .setTitle('http://maskofgoblin.com/hero/1')
+            msg.channel.sendEmbed(embed);
+    }
 })
+bot.login(token);
+bot.login(process.env.BOT_TOKEN);
