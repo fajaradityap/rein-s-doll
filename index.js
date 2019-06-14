@@ -2,6 +2,7 @@ const { Client, Attachment } = require('discord.js');
 const bot = new Client();
 const token = 'NTg4NTgwOTU2Mzk5NDY4NTQ0.XQHhHw.QFRn4_uDD83rOmIHITQTYWOz71k';
 const PREFIX = '!';
+const PREFIX2 = '$';
 const usedCommandRecently = new Set();
 
 bot.on('ready', () => {
@@ -742,12 +743,15 @@ bot.on('message', msg => {
             }
             break;
     }
-    switch (args[1]) {
-        case 'kasel':
-            const embed = new Discord.RichEmbed()
-                .setTitle('http://maskofgoblin.com/hero/1')
-            msg.channel.sendEmbed(embed);
-    }
+    bot.on('message', msg => {
+        let args = msg.content.substring(PREFIX2.length).split(" ");
+        switch (args[1]) {
+            case 'kasel':
+                const embed = new Discord.RichEmbed()
+                    .setTitle('http://maskofgoblin.com/hero/1')
+                msg.channel.sendEmbed(embed);
+        }
+    })
+    bot.login(token);
+    bot.login(process.env.BOT_TOKEN);
 })
-bot.login(token);
-bot.login(process.env.BOT_TOKEN);
