@@ -21,7 +21,7 @@ bot.on('message', msg => {
         case 'info':
             msg.delete(3000)
             if (usedCommandRecently.has(msg.author.id)) {
-                msg.reply("wait 10s to use the command");
+                msg.reply("wait 10s");
             } else {
                 msg.channel.send('created by Your Majesty 【﻿Ｒｅｉｎｆｌｙ】')
                 usedCommandRecently.add(msg.author.id);
