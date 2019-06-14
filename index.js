@@ -744,18 +744,6 @@ bot.on('message', msg => {
                 }, 5000);
             }
             break;
-
-        //heroes info
-
-        case 'hero':
-            if (args[1] === 'kasel') {
-                const embed = new Discord.RichEmbed()
-                    .addTitle('Hero Information')
-                    .addField('http://www.kingsraid.wiki/index.php?title=Kasel')
-                    .addThumbnail('http://maskofgoblin.com/img/hero.ee6ef94e.png')
-                msg.channel.sendEmbed(embed);
-            }
-
     }
 })
 bot.login(token);
