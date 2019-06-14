@@ -1,8 +1,7 @@
 const { Client, Attachment } = require('discord.js');
 const bot = new Client();
 const token = 'NTg4NTgwOTU2Mzk5NDY4NTQ0.XQHhHw.QFRn4_uDD83rOmIHITQTYWOz71k';
-const PREFIX = '!';
-const PREFIX2 = '$';
+const PREFIX = ['!', '$'];
 const usedCommandRecently = new Set();
 
 bot.on('ready', () => {
@@ -743,11 +742,10 @@ bot.on('message', msg => {
             }
             break;
     }
-    let args = msg.content.substring(PREFIX2.length).split(" ");
     switch (args[1]) {
         case 'kasel':
-            const embed = new Discord.RichEmbed()
-                .setTitle('http://maskofgoblin.com/hero/1')
+            const embed = new Discord.RichEmbed('http://maskofgoblin.com/hero/1')
+                .setTitle('Kasel')
             msg.channel.sendEmbed(embed);
     }
 })
