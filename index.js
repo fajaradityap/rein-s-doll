@@ -33,272 +33,713 @@ bot.on('message', msg => {
         case 'aisha':
             msg.delete(3000)
             const attachment = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/aisha.png')
-            msg.channel.send(attachment);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'annette':
             msg.delete(3000)
             const attachment2 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/annette.png')
-            msg.channel.send(attachment2);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment2);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'chrisha':
             msg.delete(3000)
             const attachment3 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/chrisha.png')
-            msg.channel.send(attachment3);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment3);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'cleo':
             msg.delete(3000)
             const attachment4 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/cleo.png')
-            msg.channel.send(attachment4);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment4);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'crow':
             msg.delete(3000)
             const attachment5 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/crow.png')
-            msg.channel.send(attachment5);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment5);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'crowmit':
             msg.delete(3000)
             const attachment6 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/crowmit.png')
-            msg.channel.send(attachment6);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment6);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'dimael':
             msg.delete(3000)
             const attachment7 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/dimael.png')
-            msg.channel.send(attachment7);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment7);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'erze':
             msg.delete(3000)
             const attachment8 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/erze.png')
-            msg.channel.send(attachment8);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment8);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'ezekiel':
             msg.delete(3000)
             const attachment9 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/ezekiel.png')
-            msg.channel.send(attachment9);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment9);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'eztheo':
             msg.delete(3000)
             const attachment10 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/eztheo.png')
-            msg.channel.send(attachment10);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment10);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'frey':
             msg.delete(3000)
             const attachment11 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/frey.png')
-            msg.channel.send(attachment11);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment11);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'gladi':
             msg.delete(3000)
             const attachment12 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/gladi.png')
-            msg.channel.send(attachment12);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment12);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'jane':
             msg.delete(3000)
             const attachment13 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/jane.png')
-            msg.channel.send(attachment13);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment13);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'juno':
             msg.delete(3000)
             const attachment14 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/juno.png')
-            msg.channel.send(attachment14);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment14);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'kara':
             msg.delete(3000)
             const attachment15 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/kara.png')
-            msg.channel.send(attachment15);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment15);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'kasel':
             msg.delete(3000)
             const attachment16 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/kasel.png')
-            msg.channel.send(attachment16);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment16);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'laias':
             msg.delete(3000)
             const attachment17 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/laias.png')
-            msg.channel.send(attachment17);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment17);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'leo':
             msg.delete(3000)
             const attachment18 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/leo.png')
-            msg.channel.send(attachment18);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment18);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'lilia':
             msg.delete(3000)
             const attachment19 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/lilia.png')
-            msg.channel.send(attachment19);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment19);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'lucias':
             msg.delete(3000)
             const attachment20 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/lucias.png')
-            msg.channel.send(attachment20);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment20);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'luna':
             msg.delete(3000)
             const attachment21 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/luna.png')
-            msg.channel.send(attachment21);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment21);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'may':
             msg.delete(3000)
             const attachment22 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/may.png')
-            msg.channel.send(attachment22);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment22);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'medi':
             msg.delete(3000)
             const attachment23 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/medi.png')
-            msg.channel.send(attachment23);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment23);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'miri':
             msg.delete(3000)
             const attachment24 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/miri.png')
-            msg.channel.send(attachment24);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment24);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'mirufall':
             msg.delete(3000)
             const attachment25 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/mirufall.png')
-            msg.channel.send(attachment25);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment25);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'mirusad':
             msg.delete(3000)
             const attachment26 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/mirusad.png')
-            msg.channel.send(attachment26);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment26);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'mitrash':
             msg.delete(3000)
             const attachment27 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/mitrash.png')
-            msg.channel.send(attachment27);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment27);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'naila':
             msg.delete(3000)
             const attachment28 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/naila.png')
-            msg.channel.send(attachment28);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment28);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'nera':
             msg.delete(3000)
             const attachment29 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/nera.png')
-            msg.channel.send(attachment29);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment29);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'numbchase':
             msg.delete(3000)
             const attachment30 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/numbchase.png')
-            msg.channel.send(attachment30);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment30);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'oddy':
             msg.delete(3000)
             const attachment31 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/oddy.png')
-            msg.channel.send(attachment31);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment31);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'ophel':
             msg.delete(3000)
             const attachment32 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/ophel.png')
-            msg.channel.send(attachment32);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment32);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'pavel':
             msg.delete(3000)
             const attachment33 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/pavel.png')
-            msg.channel.send(attachment33);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment33);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'pris':
             msg.delete(3000)
             const attachment34 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/pris.png')
-            msg.channel.send(attachment34);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment34);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'reina':
             msg.delete(3000)
             const attachment35 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/reina.png')
-            msg.channel.send(attachment35);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment35);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'rephy':
             msg.delete(3000)
             const attachment36 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/rephy.png')
-            msg.channel.send(attachment36);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment36);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'rodi':
             msg.delete(3000)
             const attachment37 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/rodi.png')
-            msg.channel.send(attachment37);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment37);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'scarchase':
             msg.delete(3000)
             const attachment38 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/scarchase.png')
-            msg.channel.send(attachment38);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment38);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'scarno':
             msg.delete(3000)
             const attachment39 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/scarno.png')
-            msg.channel.send(attachment39);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment39);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'scaryes':
             msg.delete(3000)
             const attachment40 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/scaryes.png')
-            msg.channel.send(attachment40);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment40);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'seria':
             msg.delete(3000)
             const attachment41 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/seria.png')
-            msg.channel.send(attachment41);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment41);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'sham':
             msg.delete(3000)
             const attachment42 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/sham.png')
-            msg.channel.send(attachment42);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment42);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'shea':
             msg.delete(3000)
             const attachment43 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/shea.png')
-            msg.channel.send(attachment43);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment43);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'sonia':
             msg.delete(3000)
             const attachment44 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/sonia.png')
-            msg.channel.send(attachment44);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment44);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'theo':
             msg.delete(3000)
             const attachment45 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/theo.png')
-            msg.channel.send(attachment45);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment45);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'boys':
             msg.delete(3000)
             const attachment46 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/boys.png')
-            msg.channel.send(attachment46);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment46);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'girls':
             msg.delete(3000)
             const attachment47 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/girls.png')
-            msg.channel.send(attachment47);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment47);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'vero':
             msg.delete(3000)
             const attachment48 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/vero.png')
-            msg.channel.send(attachment48);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment48);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'viska':
             msg.delete(3000)
             const attachment49 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/viska.png')
-            msg.channel.send(attachment49);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment49);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'yanne':
             msg.delete(3000)
             const attachment50 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/yanne.png')
-            msg.channel.send(attachment50);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment50);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'zafir':
             msg.delete(3000)
             const attachment51 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/zafir.png')
-            msg.channel.send(attachment51);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment51);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'rein':
             msg.delete(3000)
             const attachment52 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/rein.png')
-            msg.channel.send(attachment52);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment52);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'orty':
             msg.delete(3000)
             const attachment53 = new Attachment('https://raw.githubusercontent.com/fajaradityap/rein-s-doll/master/KR%20emoji/orty.png')
-            msg.channel.send(attachment53);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment53);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
         case 'heroes':
             msg.delete(3000)
             const attachment54 = new Attachment('https://media.giphy.com/media/ii2tzta1FtNH9ISJ7Z/giphy.gif')
-            msg.channel.send(attachment54);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait 10s");
+            } else {
+                msg.channel.send(attachment54);
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
+                }, 10000);
+            }
             break;
     }
     switch (args[1]) {
