@@ -1,6 +1,6 @@
 const { Client, Attachment } = require('discord.js');
 const bot = new Client();
-const token = 'NTg4NTgwOTU2Mzk5NDY4NTQ0.XQHhHw.QFRn4_uDD83rOmIHITQTYWOz71k';
+const token = 'NTg4NTgwOTU2Mzk5NDY4NTQ0.XQOiaw.QNpfqzE4EErOW2ARYc8WsfsdzCw';
 const PREFIX = '!';
 const usedCommandRecently = new Set();
 
