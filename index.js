@@ -7,7 +7,7 @@ const usedCommandRecently = new Set();
 bot.on('ready', () => {
     console.log('this bot is online');
     bot.user.setActivity('Kings Raid');
-});
+})
 
 bot.on('guildMemberAdd', member => {
     const channel = member.guild.channels.find(channel => channel.name === "general");
@@ -21,11 +21,12 @@ bot.on('message', msg => {
         case 'info':
             msg.delete(3000)
             if (usedCommandRecently.has(msg.author.id)) {
-                msg.reply("wait 30s to use the command");
+                msg.reply("wait 10s to use the command");
             } else {
                 msg.channel.send('created by Your Majesty 【﻿Ｒｅｉｎｆｌｙ】')
                 usedCommandRecently.add(msg.author.id);
                 setTimeout(() => {
+                    usedCommandRecently.delete(msg.author.id);
                 }, 10000);
             }
             break;
