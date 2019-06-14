@@ -2,6 +2,7 @@ const { Client, Attachment } = require('discord.js');
 const bot = new Client();
 const token = 'NTg4NTgwOTU2Mzk5NDY4NTQ0.XQHhHw.QFRn4_uDD83rOmIHITQTYWOz71k';
 const PREFIX = '!';
+const usedCommandRecently = new Set();
 
 bot.on('ready', () => {
     console.log('this bot is online');
@@ -20,8 +21,13 @@ bot.on('message', msg => {
         case 'info':
             msg.delete(1000)
             msg.channel.send('created by Your Majesty 【﻿Ｒｅｉｎｆｌｙ】')
-            setTimeout(() => {
-            }, 3000);
+            if (usedCommandRecently.has(msg.author.id)) {
+                msg.reply("wait a moment to use the command again");
+            } else {
+                usedCommandRecently.add(msg.author.id);
+                setTimeout(() => {
+                }, 3000);
+            }
             break;
         case 'aisha':
             msg.delete(1000)
