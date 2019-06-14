@@ -743,10 +743,9 @@ bot.on('message', msg => {
             break;
     }
     switch (args[1]) {
-        case 'embed':
+        case 'kasel':
             const embed = new Discord.RichEmbed()
-                .setTitle('Hero Information')
-                .setAuthor()
+                .setTitle('http://maskofgoblin.com/hero/1')
             msg.channel.sendEmbed(embed);
     }
 })
