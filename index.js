@@ -26,7 +26,7 @@ bot.on('message', msg => {
             } else {
                 usedCommandRecently.add(msg.author.id);
                 setTimeout(() => {
-                }, 3000);
+                }, 10000);
             }
             break;
         case 'aisha':
