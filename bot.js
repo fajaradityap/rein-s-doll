@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const Attachment = require('discord.js');
+const { Attachment } = require('discord.js');
 const bot = new Discord.Client();
 const PREFIX = '!';
 const usedCommandRecently = new Set();
