@@ -683,3 +683,4 @@ usedCommandRecently.delete(msg.author.id);
 break;
 }
 })
+bot.login(process.env.BOT_TOKEN);
